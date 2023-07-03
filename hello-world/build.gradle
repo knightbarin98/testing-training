@@ -1,0 +1,11 @@
+task helloWorld{
+	doLast {
+		print "Hello World, version = " + version
+	}
+}
+
+task byeWorld{
+	doLast {
+		print "Bye World"
+	}
+}
